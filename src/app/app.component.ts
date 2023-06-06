@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-store';
+  register = {
+    name: '',
+    email: '',
+    password: ''
+  }
+
+  onRegister(){
+    window.location.reload();
+  }
 }

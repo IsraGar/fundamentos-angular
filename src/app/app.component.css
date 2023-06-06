@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.form {
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+    padding: 3.125em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+    width: 30%;
+    margin: auto;
+}
+
+.title{
+    color: rgb(77, 75, 75);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 0.5em;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    font-size: medium;
+    color: rgb(77, 75, 75);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.input{
+  width: 100%;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.8em;
+  outline: none;
+}
+
+.error{
+    font-size: small;
+    color: #CD1818;
+}
+
+.buttons{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btnRegistry{
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    border: none;
+}
